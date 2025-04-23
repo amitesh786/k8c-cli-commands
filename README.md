@@ -56,3 +56,10 @@ This guide provides a concise and practical set of commands to get you up and ru
 ## 📊 Metrics
 - `kubectl top`
 Note: The `kubectl top` command returns current CPU and memory usage for a cluster’s pods or nodes.
+
+## 🧑‍💻 Developer Setup
+- Clone the repository:
+- git clone `https://github.com/amitesh786/k8c-cli-commands.git`
+
+## 👨‍💻 Author Amitesh Singh – [GitHub](https://github.com/amitesh786)
+- Feel free to contribute or suggest improvements! 🙌
