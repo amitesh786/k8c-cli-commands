@@ -1,6 +1,9 @@
-# 🚀 Minikube & kubectl Quickstart Guide
+# Minikube & kubectl Quickstart Guide
 
-This guide provides a concise and practical set of commands to get you up and running with Kubernetes(k8c) locally using Minikube and kubectl. Whether you're setting up your environment, deploying applications like NGINX or MongoDB, or monitoring cluster metrics this cheat sheet covers the essentials for development and testing on a local Kubernetes cluster.
+This guide provides a concise and practical set of commands to get you up and running with Kubernetes (k8s) locally using Minikube and kubectl. Whether you're setting up your environment, deploying applications like NGINX or MongoDB, or monitoring cluster metrics this cheat sheet covers the essentials for development and testing on a local Kubernetes cluster.
+
+## Install Prerequisites
+- Ensure you have [Homebrew](https://brew.sh) installed on macOS.
 
 ## Install Hyperkit and Minikube
 - `brew update`
