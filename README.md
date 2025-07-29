@@ -1,6 +1,6 @@
 # Minikube & kubectl Quickstart Guide
 
-This guide provides a concise and practical set of commands to get you up and running with Kubernetes (k8s) locally using Minikube and kubectl. Whether you're setting up your environment, deploying applications like NGINX or MongoDB, or monitoring cluster metrics this cheat sheet covers the essentials for development and testing on a local Kubernetes cluster.
+This document offers a concise and practical set of commands to help you get started with Kubernetes (k8s) on your local machine using Minikube and kubectl. It covers essential tasks such as environment setup, application deployment (e.g., NGINX, MongoDB), and basic monitoring. This guide is ideal for development and testing within a local Kubernetes cluster.
 
 ## Install Prerequisites
 - Ensure you have [Homebrew](https://brew.sh) installed on macOS.
@@ -65,4 +65,4 @@ Note: The `kubectl top` command returns current CPU and memory usage for a clust
 - git clone `https://github.com/amitesh786/k8c-cli-commands.git`
 
 ## Author Amitesh Singh – [GitHub](https://github.com/amitesh786)
-- Feel free to contribute or suggest improvements!
+- Contributions and suggestions for improvement are welcome.
