@@ -43,22 +43,22 @@ This document offers a concise and practical set of commands to help you get sta
 - `kubectl logs mongo-depl-{pod-name}`
 - `kubectl describe pod mongo-depl-{pod-name}`
 
-## Delete deployments
-- `kubectl delete deployment mongo-depl`
-- `kubectl delete deployment nginx-depl`
-
 ## Create/Edit config file
 - `vim nginx-deployment.yaml`
 - `kubectl apply -f nginx-deployment.yaml`
 - `kubectl get pod`
 - `kubectl get deployment`
 
-## Delete with config file
-- `kubectl delete -f nginx-deployment.yaml`
+## Delete deployments
+- `kubectl delete deployment mongo-depl`
+- `kubectl delete deployment nginx-depl`
 
 ## Metrics
 - `kubectl top`
 Note: The `kubectl top` command returns current CPU and memory usage for a cluster’s pods or nodes.
+
+## Delete with config file
+- `kubectl delete -f nginx-deployment.yaml`
 
 ## Developer Setup
 - Clone the repository:
